@@ -6,7 +6,7 @@ import random
 import re
 import sys
 
-# Complete the hourglassSum function below.
+# O(n^2)
 def hourglassSum(arr):
     max = -10000
     for i in range(1, len(arr) - 1):
