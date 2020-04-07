@@ -1,2 +1,2 @@
-# hacker-rank-challenges
-Hacker Rank Challenges
+# Algorithms
+Various Algorithms
