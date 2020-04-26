@@ -2,6 +2,9 @@
  * @param {number} n
  * @return {boolean}
  */
+/**
+    Author note: needs to study complexity!
+*/
 var isHappy = function(n) {
     let nString = "";
     let k = n, sum = 0, i = 0, digit = 0;
