@@ -10,16 +10,17 @@ var optimalDivision = function(nums) {
     }
     else {
         let str = "";
-        
+        let valueStr = "";
         nums.forEach((value, index) => {
+           valueStr = ""+value;
            if(index === 0) {
-               str += `${value}/(`;
+               str += valueStr + "/(";
            }
             else if(index === n - 1) {
-                 str += `${value})`;
+                 str += valueStr + ")";
             }
             else {
-                 str += `${value}/`;
+                 str += valueStr + "/";
             }
         });
         
